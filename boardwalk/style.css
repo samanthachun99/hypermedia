@@ -1,0 +1,67 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: olivedrab;
+    color: white;
+}
+
+.horizon{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 500px;
+    top: -800px;
+}
+
+.walk{
+    font-size: 24px;
+    position: absolute;
+    left: 450px;
+    top: 160px;
+}
+
+.waves{
+    position: absolute;
+    left: 50px;
+    top: 175px;
+    animation-name: waves;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes waves {
+    0% {
+        left: 40px;
+    }
+
+    75% {
+        left: 110px;
+    }
+    100% {
+        left: 40px;
+    }
+}
+
+.building{
+    font-size: 40px;
+    position: absolute;
+    left: 1200px;
+    top: 50px;
+}
+
+.text{
+    font-size: 18px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+.map{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

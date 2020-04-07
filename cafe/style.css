@@ -1,0 +1,50 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: burlywood;
+    color: white;
+}
+
+.counter{
+    font-size: 20px;
+    position: absolute;
+    left: 750px;
+    top: 100px;
+}
+
+.coffee{
+    font-size: 30px;
+    position: absolute;
+    left: 160px;
+    top: 200px;
+}
+
+.text{
+    font-size: 18px;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+
+.map{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.next{
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+.back{
+    position: absolute;
+    left: 30px;
+    top: 90px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

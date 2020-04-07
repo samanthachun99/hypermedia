@@ -1,0 +1,152 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 1800px;
+}
+
+.ocean{
+    color: teal;
+    position: absolute;
+    left: 220px;
+    top: 700px;
+}
+
+.ocean_art{
+    color: teal;
+    position: absolute;
+    left: 350px;
+    top: 250px;
+    animation-name: waves;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes waves {
+    0% {
+        left: 350px;
+    }
+
+    75% {
+        left: 450px;
+    }
+    100% {
+        left: 350px;
+    }
+}
+
+
+.boardwalk{
+    color: olivedrab;
+    position: absolute;
+    left: 1100px;
+    top: 700px;
+}
+
+.boardwalk_art{
+    color: olivedrab;
+    position: absolute;
+    left: 920px;
+    top: 250px;
+}
+
+.bonfire{
+    color: orangered;
+    position: absolute;
+    left: 820px;
+    top: 860px;
+}
+
+.bonfire_art{
+    color: orangered;
+    position: absolute;
+    left: 750px;
+    top: 750px;
+}
+
+.donut{
+    color: palevioletred;
+    position: absolute;
+    left: 1450px;
+    top: 980px; 
+}
+
+.donut_art{
+    color: palevioletred;
+    position: absolute;
+    left: 1200px;
+    top: 850px;
+}
+
+.gallery{
+    color: cadetblue;
+    position: absolute;
+    left: 1460px;
+    top: 625px;
+}
+
+.gallery_art{
+    color: cadetblue;
+    position: absolute;
+    left: 1300px;
+    top: 550px;
+}
+
+.bikes{
+    color: coral;
+    position: absolute;
+    left: 1373px;
+    top: 1225px;
+}
+
+.bikes_art{
+    color: coral;
+    position: absolute;
+    left: 1200px;
+    top: 1150px;
+}
+
+.pier{
+    color: peru;
+    position: absolute;
+    top: 270px;
+    left: 890px;
+}
+
+.pier_art{
+    color: peru;
+    position: absolute;
+    top: 110px;
+    left: -30px;
+}
+
+.bar_art{
+    color: purple;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.bar{
+    color: purple;
+    position: absolute;
+    left: 130px;
+    top: 108px;
+}
+
+.cafe{
+    color: burlywood;
+    position: absolute;
+    left: 1360px;
+    top: 305px;
+}
+
+.cafe_art{
+    color: burlywood;
+    position: absolute;
+    left: 1200px;
+    top: 230px;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,52 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: peru;
+    color: white;
+}
+
+#bar{
+    font-size: 50px;
+    position: absolute;
+    left: -40px;
+    top: 0px;
+}
+
+#person{
+    font-size: 50px;
+    position: absolute;
+    left: 445px;
+    top: 450px;
+}
+
+.walkway{
+    font-size: 55px;
+    position: absolute;
+    left: -350px;
+    top: 200px;
+}
+
+.map{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#card{
+    background-color: darkorchid;
+    border: solid white 5px;
+    font-size: 20px;
+	display: none;
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	left: 70%;
+	top: 20%; 
+	border-radius: 10px;
+}

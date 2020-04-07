@@ -1,0 +1,88 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: teal;
+    color: white;
+}
+
+/* pre{
+    height: 100%;
+    position: relative;
+} */
+
+.horizon{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 700px;
+    top: -800px;
+}
+
+.waves{
+    background-color: teal;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 700px;
+    top: -575px;
+    animation-name: wave1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wave1 {
+    0% {
+        top: -500px;
+    }
+
+    25% {
+        top: -450px;
+    }
+    100% {
+        top: -500px;
+    }
+}
+.sand{
+    position: absolute;
+    top: 600px;
+}
+
+.fish1{
+    position: absolute;
+    top: 280px;
+    left: 400px;
+}
+
+.fish2{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+
+.fish3{
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+}
+
+.fish4{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+.text{
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+
+.map{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

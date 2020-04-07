@@ -1,0 +1,46 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: orangered;
+    color: white;
+}
+
+.fire{
+    font-size: 30px;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    color: orangered;
+}
+
+.pit{
+    font-size: 30px;
+    position: absolute;
+    left: -100px;
+    top: 550px;
+}
+
+.button{
+    font-size: 30px;
+    position: absolute;
+    left: 530px;
+    top: 650px;
+}
+
+.text{
+    font-size: 18px;
+    position: absolute;
+    left: 1000px;
+    top: 150px;
+}
+
+.map{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

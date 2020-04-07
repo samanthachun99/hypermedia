@@ -1,0 +1,38 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    background-color: darkorchid;
+}
+
+.table{
+    font-size: 24px;
+    position: absolute;
+    left: -100px;
+    top: 100px;
+}
+
+.glass{
+    font-size: 30px;
+    position: absolute;
+    left: 600px;
+    top: 150px;
+}
+
+.text{
+    font-size: 18px;
+    position: absolute;
+    top: 150px;
+    left: 1200px;
+}
+
+.map{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

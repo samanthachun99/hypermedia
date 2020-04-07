@@ -1,0 +1,71 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: palevioletred;
+    color: white;
+}
+
+.donut1{
+position: absolute;
+left: 200px;
+top: 250px;
+font-size: 40px;
+}
+
+.donut2{
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    font-size: 20px; 
+}
+
+.donut3{
+    position: absolute;
+    left: 1000px;
+    top: 300px;
+    font-size: 20px; 
+}
+
+.donut4{
+    position: absolute;
+    left: 1300px;
+    top: 200px;
+    font-size: 20px; 
+}
+
+.donut5{
+    position: absolute;
+    left: 1250px;
+    top: 500px;
+    font-size: 14px; 
+}
+
+.map{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.text{
+    font-size: 18px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.next{
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+.back{
+    position: absolute;
+    left: 30px;
+    top: 90px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
